@@ -1,8 +1,5 @@
-Here’s a properly formatted and professional `README.md` file for your **Employee Management System** project. You can copy this into your GitHub repository directly.
 
----
 
-```markdown
 # 🧑‍💼 Employee Management System
 
 A Spring Boot-based RESTful API to manage employee records efficiently. This system supports full CRUD operations and integrates with a MySQL database using Spring Data JPA. Designed with clean architecture and optimized database queries for better performance.
@@ -70,12 +67,13 @@ emp-management-api/
    ```bash
    git clone https://github.com/aansach/emp-management-api.git
    cd emp-management-api
-````
+    ```       
 
 2. **Configure MySQL Database**
-   Edit `src/main/resources/application.properties`:
+   Edit `src/main/resources/application.properties`
 
-   ```properties
+   ```
+   properties
    spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
    spring.datasource.username=root
    spring.datasource.password=yourpassword
